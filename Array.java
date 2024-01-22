@@ -27,5 +27,7 @@ public class Array {
         // 2D array
         int[][] finalMarks = {{97, 98, 95}, {95, 95, 98}};
         System.out.println(finalMarks[1][1]);
+        System.out.println(finalMarks[0][0]);        
+
     }
 }
