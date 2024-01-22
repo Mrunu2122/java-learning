@@ -1,5 +1,6 @@
 public class hello {
     public static void main(String[] args) {
+        System.out.println("Hello Java!");
         // byte - 1 [-128 to 127]
         // short - 2 
         // int - 4
@@ -9,16 +10,17 @@ public class hello {
         // char - 2 (a,b,c,d)
         // boolean - 1 true/false
 
-        byte age = 30;
-        int phone = 1234567890;
-        long phone2 = 12345678900L;
-        float pi = 3.14F;
-        char letter = '@';
-        boolean isAdult = true;
+        // byte age = 30;
+        // int phone = 1234567890;
+        // long phone2 = 12345678900L;
+        // float pi = 3.14F;
+        // char letter = '@';
+        // boolean isAdult = true;
 
         // Non-primitive types
         String name = new String ("Mrunal");
         String friend = new String ("Dipti");
         System.out.println(friend.length());
+        System.out.println(name.length());
     }
 }
