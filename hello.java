@@ -18,9 +18,5 @@ public class hello {
         // boolean isAdult = true;
 
         // Non-primitive types
-        String name = new String ("Mrunal");
-        String friend = new String ("Dipti");
-        System.out.println(friend.length());
-        System.out.println(name.length());
     }
 }
